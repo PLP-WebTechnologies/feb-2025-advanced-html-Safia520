@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <p>This page demonstrates HTML elements.</p>
+      </header>
+    <h2>ordered list</h2>
+    <ol style="list-style-type:upper-roman">
+    <li>banana</li>
+    <li>apples</li>
+    <li>pears</li>
+</ol>
+<img src="pexels-pixabay-68507.jpg"alt="flowers" style="width:500px; height:500px;">
+<table border="1">
+    <thead>
+    <tr>
+    <th>name</th>
+    <th>address</th>
+    <th>mobile</th>
+    <th>emails</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td>Jane Njoki</td>
+      <td>123 Nairobi Lane</td>
+      <td>+254701234567</td>
+      <td>jane@example.com</td>
+    </tr>
+    <tr>
+      <td>John Kimani</td>
+      <td>456 Eldoret Ave</td>
+      <td>+254712345678</td>
+      <td>john@example.com</td>
+    </tr>
+    <tr>
+      <td>Mary Wanjiku</td>
+      <td>789 Mombasa Rd</td>
+      <td>+254723456789</td>
+      <td>mary@example.com</td>
+    </tr>
+    <tr>
+      <td>Ali Yusuf</td>
+      <td>321 Kisumu Blvd</td>
+      <td>+254734567890</td>
+      <td>ali@example.com</td>
+    </tr>
+    <tr>
+      <td>Lucy Wangari</td>
+      <td>654 Nakuru St</td>
+      <td>+254745678901</td>
+      <td>lucy@example.com</td>
+    </tr>
+  </tbody>
+</table>
+<h3>registration forms</h3>
+<forms action="" method="">
+    <label for="full_name">full_names:</label>
+    <input type="text" id="full_name" placeholder="enter your name here"required>
+    <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required ><br><br>
+
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Choose a strong password" minlength="6" required ><br><br>
+
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required> <br><br>
+
+ 
+      <label for="country">Select Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Choose your country--</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male" required >
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br><br>
+
+      <label>Interests:</label><br>
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label><br />
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label><br />
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  <footer>
+    <p>&copy; 2025 safia jamal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
